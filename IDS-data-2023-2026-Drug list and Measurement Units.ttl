@@ -1,0 +1,1194 @@
+@prefix ids: <https://example.org/ids/vocab/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/ids/reference/1>
+    a ids:DrugReference ;
+    ids:drugName "Amphetamine" ;
+    ids:drugClass "Amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:measurementUnit "plant" ;
+    ids:drug <https://example.org/ids/drug/amphetamine> .
+
+<https://example.org/ids/reference/2>
+    a ids:DrugReference ;
+    ids:drugName "Captagon" ;
+    ids:drugClass "Amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:measurementUnit "tablet/pill" ;
+    ids:drug <https://example.org/ids/drug/captagon> .
+
+<https://example.org/ids/reference/3>
+    a ids:DrugReference ;
+    ids:drugName "Fenethylline" ;
+    ids:drugClass "Amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:measurementUnit "unit" ;
+    ids:drug <https://example.org/ids/drug/fenethylline> .
+
+<https://example.org/ids/reference/4>
+    a ids:DrugReference ;
+    ids:drugName "Methamphetamine" ;
+    ids:drugClass "Amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:measurementUnit "g" ;
+    ids:drug <https://example.org/ids/drug/methamphetamine> .
+
+<https://example.org/ids/reference/5>
+    a ids:DrugReference ;
+    ids:drugName "Methcathinone" ;
+    ids:drugClass "Amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:measurementUnit "kg" ;
+    ids:drug <https://example.org/ids/drug/methcathinone> .
+
+<https://example.org/ids/reference/6>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:drugClass "Amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:measurementUnit "lt" ;
+    ids:drug <https://example.org/ids/drug/non-specified_amphetamine-type_stimulants_%28excluding%C2%A0ecstasy%29> .
+
+<https://example.org/ids/reference/7>
+    a ids:DrugReference ;
+    ids:drugName "Other amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:drugClass "Amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:drugSubgroup "Other amphetamine-type stimulants (excluding ecstasy)" ;
+    ids:measurementUnit "other, specify" ;
+    ids:drug <https://example.org/ids/drug/other_amphetamine-type_stimulants_%28excluding%C2%A0ecstasy%29> .
+
+<https://example.org/ids/reference/8>
+    a ids:DrugReference ;
+    ids:drugName "Cannabis herb (marijuana)" ;
+    ids:drugClass "Cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drug <https://example.org/ids/drug/cannabis_herb_%28marijuana%29> .
+
+<https://example.org/ids/reference/9>
+    a ids:DrugReference ;
+    ids:drugName "Cannabis oil" ;
+    ids:drugClass "Cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drug <https://example.org/ids/drug/cannabis_oil> .
+
+<https://example.org/ids/reference/10>
+    a ids:DrugReference ;
+    ids:drugName "Cannabis plants" ;
+    ids:drugClass "Cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drug <https://example.org/ids/drug/cannabis_plants> .
+
+<https://example.org/ids/reference/11>
+    a ids:DrugReference ;
+    ids:drugName "Cannabis pollen (dust)" ;
+    ids:drugClass "Cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drug <https://example.org/ids/drug/cannabis_pollen_%28dust%29> .
+
+<https://example.org/ids/reference/12>
+    a ids:DrugReference ;
+    ids:drugName "Cannabis resin (hashish)" ;
+    ids:drugClass "Cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drug <https://example.org/ids/drug/cannabis_resin_%28hashish%29> .
+
+<https://example.org/ids/reference/13>
+    a ids:DrugReference ;
+    ids:drugName "Cannabis seeds" ;
+    ids:drugClass "Cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drug <https://example.org/ids/drug/cannabis_seeds> .
+
+<https://example.org/ids/reference/14>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drugClass "Cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drug <https://example.org/ids/drug/non-specified_cannabis-type_%28excluding_synthetic_cannabinoids%29> .
+
+<https://example.org/ids/reference/15>
+    a ids:DrugReference ;
+    ids:drugName "Other cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drugClass "Cannabis-type (excluding synthetic cannabinoids)" ;
+    ids:drug <https://example.org/ids/drug/other_cannabis-type_%28excluding_synthetic_cannabinoids%29> .
+
+<https://example.org/ids/reference/16>
+    a ids:DrugReference ;
+    ids:drugName "Tetrahydrocannabinol (THC)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/tetrahydrocannabinol_%28thc%29> .
+
+<https://example.org/ids/reference/17>
+    a ids:DrugReference ;
+    ids:drugName "Coca bush" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drug <https://example.org/ids/drug/coca_bush> .
+
+<https://example.org/ids/reference/18>
+    a ids:DrugReference ;
+    ids:drugName "Coca leaf" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drug <https://example.org/ids/drug/coca_leaf> .
+
+<https://example.org/ids/reference/19>
+    a ids:DrugReference ;
+    ids:drugName "Coca paste" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drugSubgroup "Coca paste / refined cocaine base" ;
+    ids:drug <https://example.org/ids/drug/coca_paste> .
+
+<https://example.org/ids/reference/20>
+    a ids:DrugReference ;
+    ids:drugName "Cocaine base" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drug <https://example.org/ids/drug/cocaine_base> .
+
+<https://example.org/ids/reference/21>
+    a ids:DrugReference ;
+    ids:drugName "Cocaine hydrochloride (HCl, powder cocaine)" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drugSubgroup "Cocaine salts" ;
+    ids:drug <https://example.org/ids/drug/cocaine_hydrochloride_%28hcl%2C_powder_cocaine%29> .
+
+<https://example.org/ids/reference/22>
+    a ids:DrugReference ;
+    ids:drugName "Cocaine salts" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drugSubgroup "Cocaine salts" ;
+    ids:drug <https://example.org/ids/drug/cocaine_salts> .
+
+<https://example.org/ids/reference/23>
+    a ids:DrugReference ;
+    ids:drugName "Cocaine seeds" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drug <https://example.org/ids/drug/cocaine_seeds> .
+
+<https://example.org/ids/reference/24>
+    a ids:DrugReference ;
+    ids:drugName "Crack cocaine" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drug <https://example.org/ids/drug/crack_cocaine> .
+
+<https://example.org/ids/reference/25>
+    a ids:DrugReference ;
+    ids:drugName "Freebase cocaine" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drug <https://example.org/ids/drug/freebase_cocaine> .
+
+<https://example.org/ids/reference/26>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified cocaine-type" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drug <https://example.org/ids/drug/non-specified_cocaine-type> .
+
+<https://example.org/ids/reference/27>
+    a ids:DrugReference ;
+    ids:drugName "Other cocaine-type" ;
+    ids:drugClass "Cocaine-type" ;
+    ids:drug <https://example.org/ids/drug/other_cocaine-type> .
+
+<https://example.org/ids/reference/28>
+    a ids:DrugReference ;
+    ids:drugName "MDA" ;
+    ids:drugClass "“Ecstasy”-type substances" ;
+    ids:drug <https://example.org/ids/drug/mda> .
+
+<https://example.org/ids/reference/29>
+    a ids:DrugReference ;
+    ids:drugName "MDEA" ;
+    ids:drugClass "“Ecstasy”-type substances" ;
+    ids:drug <https://example.org/ids/drug/mdea> .
+
+<https://example.org/ids/reference/30>
+    a ids:DrugReference ;
+    ids:drugName "MDMA" ;
+    ids:drugClass "“Ecstasy”-type substances" ;
+    ids:drug <https://example.org/ids/drug/mdma> .
+
+<https://example.org/ids/reference/31>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified ecstasy-type substances" ;
+    ids:drugClass "“Ecstasy”-type substances" ;
+    ids:drug <https://example.org/ids/drug/non-specified_ecstasy-type_substances> .
+
+<https://example.org/ids/reference/32>
+    a ids:DrugReference ;
+    ids:drugName "Other ecstasy-type substances" ;
+    ids:drugClass "“Ecstasy”-type substances" ;
+    ids:drug <https://example.org/ids/drug/other_ecstasy-type_substances> .
+
+<https://example.org/ids/reference/33>
+    a ids:DrugReference ;
+    ids:drugName "2C-B (4-bromo-2,5-dimethoxyphenethylamine)" ;
+    ids:drugClass "Hallucinogens" ;
+    ids:drug <https://example.org/ids/drug/2c-b_%284-bromo-2%2C5-dimethoxyphenethylamine%29> .
+
+<https://example.org/ids/reference/34>
+    a ids:DrugReference ;
+    ids:drugName "PMK (3,4 Methylenedioxyphenyl-2-propanone)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/pmk_%283%2C4_methylenedioxyphenyl-2-propanone%29> .
+
+<https://example.org/ids/reference/35>
+    a ids:DrugReference ;
+    ids:drugName "LSD" ;
+    ids:drugClass "Hallucinogens" ;
+    ids:drug <https://example.org/ids/drug/lsd> .
+
+<https://example.org/ids/reference/36>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified hallucinogens" ;
+    ids:drugClass "Hallucinogens" ;
+    ids:drug <https://example.org/ids/drug/non-specified_hallucinogens> .
+
+<https://example.org/ids/reference/37>
+    a ids:DrugReference ;
+    ids:drugName "Other hallucinogens" ;
+    ids:drugClass "Hallucinogens" ;
+    ids:drug <https://example.org/ids/drug/other_hallucinogens> .
+
+<https://example.org/ids/reference/38>
+    a ids:DrugReference ;
+    ids:drugName "Psilocybin" ;
+    ids:drugClass "Hallucinogens" ;
+    ids:drug <https://example.org/ids/drug/psilocybin> .
+
+<https://example.org/ids/reference/39>
+    a ids:DrugReference ;
+    ids:drugName "3-Chloromethcathinone (3-CMC)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cathinones" ;
+    ids:drug <https://example.org/ids/drug/3-chloromethcathinone_%283-cmc%29> .
+
+<https://example.org/ids/reference/40>
+    a ids:DrugReference ;
+    ids:drugName "N-Methylephedrone" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cathinones" ;
+    ids:drug <https://example.org/ids/drug/n-methylephedrone> .
+
+<https://example.org/ids/reference/41>
+    a ids:DrugReference ;
+    ids:drugName "4-Chloromethcathinone (4-CMC, Clephedrone)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cathinones" ;
+    ids:drug <https://example.org/ids/drug/4-chloromethcathinone_%284-cmc%2C_clephedrone%29> .
+
+<https://example.org/ids/reference/42>
+    a ids:DrugReference ;
+    ids:drugName "5-Aminoisotonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/5-aminoisotonitazene> .
+
+<https://example.org/ids/reference/43>
+    a ids:DrugReference ;
+    ids:drugName "Methylone" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic Cathinones" ;
+    ids:drug <https://example.org/ids/drug/methylone> .
+
+<https://example.org/ids/reference/44>
+    a ids:DrugReference ;
+    ids:drugName "Methylamine" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/methylamine> .
+
+<https://example.org/ids/reference/45>
+    a ids:DrugReference ;
+    ids:drugName "Acetylfentanyl" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic opioids" ;
+    ids:drug <https://example.org/ids/drug/acetylfentanyl> .
+
+<https://example.org/ids/reference/46>
+    a ids:DrugReference ;
+    ids:drugName "alpha-pyrrolidinovalerophenone (alpha-PVP)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cathinones" ;
+    ids:drug <https://example.org/ids/drug/alpha-pyrrolidinovalerophenone_%28alpha-pvp%29> .
+
+<https://example.org/ids/reference/47>
+    a ids:DrugReference ;
+    ids:drugName "Butonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/butonitazene> .
+
+<https://example.org/ids/reference/48>
+    a ids:DrugReference ;
+    ids:drugName "BZP (N-benzylpiperazine)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Piperazines" ;
+    ids:drug <https://example.org/ids/drug/bzp_%28n-benzylpiperazine%29> .
+
+<https://example.org/ids/reference/49>
+    a ids:DrugReference ;
+    ids:drugName "Carfentanil" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic opioids" ;
+    ids:drug <https://example.org/ids/drug/carfentanil> .
+
+<https://example.org/ids/reference/50>
+    a ids:DrugReference ;
+    ids:drugName "Etazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/etazene> .
+
+<https://example.org/ids/reference/51>
+    a ids:DrugReference ;
+    ids:drugName "Ethyleneoxynitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/ethyleneoxynitazene> .
+
+<https://example.org/ids/reference/52>
+    a ids:DrugReference ;
+    ids:drugName "Etonitazepyne" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/etonitazepyne> .
+
+<https://example.org/ids/reference/53>
+    a ids:DrugReference ;
+    ids:drugName "Fluonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/fluonitazene> .
+
+<https://example.org/ids/reference/54>
+    a ids:DrugReference ;
+    ids:drugName "Isotodesnitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/isotodesnitazene> .
+
+<https://example.org/ids/reference/55>
+    a ids:DrugReference ;
+    ids:drugName "Isotonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/isotonitazene> .
+
+<https://example.org/ids/reference/56>
+    a ids:DrugReference ;
+    ids:drugName "JWH - 018" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cannabinoids (spice)" ;
+    ids:drug <https://example.org/ids/drug/jwh_-_018> .
+
+<https://example.org/ids/reference/57>
+    a ids:DrugReference ;
+    ids:drugName "JWH - 073" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cannabinoids (spice)" ;
+    ids:drug <https://example.org/ids/drug/jwh_-_073> .
+
+<https://example.org/ids/reference/58>
+    a ids:DrugReference ;
+    ids:drugName "JWH - 122" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cannabinoids (spice)" ;
+    ids:drug <https://example.org/ids/drug/jwh_-_122> .
+
+<https://example.org/ids/reference/59>
+    a ids:DrugReference ;
+    ids:drugName "JWH - 203" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cannabinoids (spice)" ;
+    ids:drug <https://example.org/ids/drug/jwh_-_203> .
+
+<https://example.org/ids/reference/60>
+    a ids:DrugReference ;
+    ids:drugName "JWH - 250" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cannabinoids (spice)" ;
+    ids:drug <https://example.org/ids/drug/jwh_-_250> .
+
+<https://example.org/ids/reference/61>
+    a ids:DrugReference ;
+    ids:drugName "Ketamine" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Ketamine and phencyclidine-type substances" ;
+    ids:drug <https://example.org/ids/drug/ketamine> .
+
+<https://example.org/ids/reference/62>
+    a ids:DrugReference ;
+    ids:drugName "Khat" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drug <https://example.org/ids/drug/khat> .
+
+<https://example.org/ids/reference/63>
+    a ids:DrugReference ;
+    ids:drugName "mCPP (meta-Chlorophenylpiperazine)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Piperazines" ;
+    ids:drug <https://example.org/ids/drug/mcpp_%28meta-chlorophenylpiperazine%29> .
+
+<https://example.org/ids/reference/64>
+    a ids:DrugReference ;
+    ids:drugName "MDPV" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic Cathinones" ;
+    ids:drug <https://example.org/ids/drug/mdpv> .
+
+<https://example.org/ids/reference/65>
+    a ids:DrugReference ;
+    ids:drugName "methyl alpha-phenylacetoacetate (MAPA)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/methyl_alpha-phenylacetoacetate_%28mapa%29> .
+
+<https://example.org/ids/reference/66>
+    a ids:DrugReference ;
+    ids:drugName "Mephedrone (4-methylmethcathinone, 4-MMC)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic Cathinones" ;
+    ids:drug <https://example.org/ids/drug/mephedrone_%284-methylmethcathinone%2C_4-mmc%29> .
+
+<https://example.org/ids/reference/67>
+    a ids:DrugReference ;
+    ids:drugName "Metodesnitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/metodesnitazene> .
+
+<https://example.org/ids/reference/68>
+    a ids:DrugReference ;
+    ids:drugName "Metonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/metonitazene> .
+
+<https://example.org/ids/reference/69>
+    a ids:DrugReference ;
+    ids:drugName "Mitragyna speciosa (kratom)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drug <https://example.org/ids/drug/mitragyna_speciosa_%28kratom%29> .
+
+<https://example.org/ids/reference/70>
+    a ids:DrugReference ;
+    ids:drugName "N-desethyl etonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/n-desethyl_etonitazene> .
+
+<https://example.org/ids/reference/71>
+    a ids:DrugReference ;
+    ids:drugName "N-Desethyl Isotonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/n-desethyl_isotonitazene> .
+
+<https://example.org/ids/reference/72>
+    a ids:DrugReference ;
+    ids:drugName "N-Ethylhexedrone" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cathinones" ;
+    ids:drug <https://example.org/ids/drug/n-ethylhexedrone> .
+
+<https://example.org/ids/reference/73>
+    a ids:DrugReference ;
+    ids:drugName "Dimethyltryptamine (DMT)" ;
+    ids:drugClass "Hallucinogens" ;
+    ids:drug <https://example.org/ids/drug/dimethyltryptamine_%28dmt%29> .
+
+<https://example.org/ids/reference/74>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified aminoindanes" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drug <https://example.org/ids/drug/non-specified_aminoindanes> .
+
+<https://example.org/ids/reference/75>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified ketamine and phencyclidine-type substances" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Ketamine and phencyclidine-type substances" ;
+    ids:drug <https://example.org/ids/drug/non-specified_ketamine_and_phencyclidine-type_substances> .
+
+<https://example.org/ids/reference/76>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified nitazenes" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/non-specified_nitazenes> .
+
+<https://example.org/ids/reference/77>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified NPS" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drug <https://example.org/ids/drug/non-specified_nps> .
+
+<https://example.org/ids/reference/78>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified phenethylamines" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Phenethylamines" ;
+    ids:drug <https://example.org/ids/drug/non-specified_phenethylamines> .
+
+<https://example.org/ids/reference/79>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified piperazines" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Piperazines" ;
+    ids:drug <https://example.org/ids/drug/non-specified_piperazines> .
+
+<https://example.org/ids/reference/80>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified synthetic cannabinoids (spice)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cannabinoids (spice)" ;
+    ids:drug <https://example.org/ids/drug/non-specified_synthetic_cannabinoids_%28spice%29> .
+
+<https://example.org/ids/reference/81>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified Synthetic cathinones" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cathinones" ;
+    ids:drug <https://example.org/ids/drug/non-specified_synthetic_cathinones> .
+
+<https://example.org/ids/reference/82>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified tryptamines" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Tryptamines" ;
+    ids:drug <https://example.org/ids/drug/non-specified_tryptamines> .
+
+<https://example.org/ids/reference/83>
+    a ids:DrugReference ;
+    ids:drugName "N-Piperidinyl Etonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/n-piperidinyl_etonitazene> .
+
+<https://example.org/ids/reference/84>
+    a ids:DrugReference ;
+    ids:drugName "N-pyrrolidino protonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/n-pyrrolidino_protonitazene> .
+
+<https://example.org/ids/reference/85>
+    a ids:DrugReference ;
+    ids:drugName "Other nitazenes" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/other_nitazenes> .
+
+<https://example.org/ids/reference/86>
+    a ids:DrugReference ;
+    ids:drugName "Other NPS" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drug <https://example.org/ids/drug/other_nps> .
+
+<https://example.org/ids/reference/87>
+    a ids:DrugReference ;
+    ids:drugName "Other piperazines" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Piperazines" ;
+    ids:drug <https://example.org/ids/drug/other_piperazines> .
+
+<https://example.org/ids/reference/88>
+    a ids:DrugReference ;
+    ids:drugName "Other synthetic cannabinoids (spice)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cannabinoids (spice)" ;
+    ids:drug <https://example.org/ids/drug/other_synthetic_cannabinoids_%28spice%29> .
+
+<https://example.org/ids/reference/89>
+    a ids:DrugReference ;
+    ids:drugName "Other tryptamines" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Tryptamines" ;
+    ids:drug <https://example.org/ids/drug/other_tryptamines> .
+
+<https://example.org/ids/reference/90>
+    a ids:DrugReference ;
+    ids:drugName "Phenibut" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drug <https://example.org/ids/drug/phenibut> .
+
+<https://example.org/ids/reference/91>
+    a ids:DrugReference ;
+    ids:drugName "Protonitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/protonitazene> .
+
+<https://example.org/ids/reference/92>
+    a ids:DrugReference ;
+    ids:drugName "Protonitazepyne" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/protonitazepyne> .
+
+<https://example.org/ids/reference/93>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified psychotropic substances" ;
+    ids:drugClass "Non-specified psychotropic substances" ;
+    ids:drug <https://example.org/ids/drug/non-specified_psychotropic_substances> .
+
+<https://example.org/ids/reference/94>
+    a ids:DrugReference ;
+    ids:drugName "Dimethyl ether" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drugSubgroup "Ethers" ;
+    ids:drug <https://example.org/ids/drug/dimethyl_ether> .
+
+<https://example.org/ids/reference/95>
+    a ids:DrugReference ;
+    ids:drugName "Codeine" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/codeine> .
+
+<https://example.org/ids/reference/96>
+    a ids:DrugReference ;
+    ids:drugName "Desomorphine" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Other opioids" ;
+    ids:drug <https://example.org/ids/drug/desomorphine> .
+
+<https://example.org/ids/reference/97>
+    a ids:DrugReference ;
+    ids:drugName "Fentanyl" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/fentanyl> .
+
+<https://example.org/ids/reference/98>
+    a ids:DrugReference ;
+    ids:drugName "Heroin" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Opiates" ;
+    ids:drug <https://example.org/ids/drug/heroin> .
+
+<https://example.org/ids/reference/99>
+    a ids:DrugReference ;
+    ids:drugName "Illicit morphine" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Opiates" ;
+    ids:drug <https://example.org/ids/drug/illicit_morphine> .
+
+<https://example.org/ids/reference/100>
+    a ids:DrugReference ;
+    ids:drugName "Methadone" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/methadone> .
+
+<https://example.org/ids/reference/101>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified opiates" ;
+    ids:drugClass "Opioids" ;
+    ids:drug <https://example.org/ids/drug/non-specified_opiates> .
+
+<https://example.org/ids/reference/102>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified opioids" ;
+    ids:drugClass "Opioids" ;
+    ids:drug <https://example.org/ids/drug/non-specified_opioids> .
+
+<https://example.org/ids/reference/103>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified pharmaceutical opioids" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/non-specified_pharmaceutical_opioids> .
+
+<https://example.org/ids/reference/104>
+    a ids:DrugReference ;
+    ids:drugName "Opium" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Opiates" ;
+    ids:drug <https://example.org/ids/drug/opium> .
+
+<https://example.org/ids/reference/105>
+    a ids:DrugReference ;
+    ids:drugName "Other opiates" ;
+    ids:drugClass "Opioids" ;
+    ids:drug <https://example.org/ids/drug/other_opiates> .
+
+<https://example.org/ids/reference/106>
+    a ids:DrugReference ;
+    ids:drugName "Other opioids" ;
+    ids:drugClass "Opioids" ;
+    ids:drug <https://example.org/ids/drug/other_opioids> .
+
+<https://example.org/ids/reference/107>
+    a ids:DrugReference ;
+    ids:drugName "Other pharmaceutical opioids" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/other_pharmaceutical_opioids> .
+
+<https://example.org/ids/reference/108>
+    a ids:DrugReference ;
+    ids:drugName "Oxycodone" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/oxycodone> .
+
+<https://example.org/ids/reference/109>
+    a ids:DrugReference ;
+    ids:drugName "Poppy plants" ;
+    ids:drugClass "Opioids" ;
+    ids:drug <https://example.org/ids/drug/poppy_plants> .
+
+<https://example.org/ids/reference/110>
+    a ids:DrugReference ;
+    ids:drugName "Poppy seeds" ;
+    ids:drugClass "Opioids" ;
+    ids:drug <https://example.org/ids/drug/poppy_seeds> .
+
+<https://example.org/ids/reference/111>
+    a ids:DrugReference ;
+    ids:drugName "Poppy straw" ;
+    ids:drugClass "Opioids" ;
+    ids:drug <https://example.org/ids/drug/poppy_straw> .
+
+<https://example.org/ids/reference/112>
+    a ids:DrugReference ;
+    ids:drugName "Promedol (Trimeperidine)" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/promedol_%28trimeperidine%29> .
+
+<https://example.org/ids/reference/113>
+    a ids:DrugReference ;
+    ids:drugName "Subutex (buprenorphine)" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/subutex_%28buprenorphine%29> .
+
+<https://example.org/ids/reference/114>
+    a ids:DrugReference ;
+    ids:drugName "Tianeptine" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/tianeptine> .
+
+<https://example.org/ids/reference/115>
+    a ids:DrugReference ;
+    ids:drugName "Tramadol" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Pharmaceutical opioids" ;
+    ids:drug <https://example.org/ids/drug/tramadol> .
+
+<https://example.org/ids/reference/116>
+    a ids:DrugReference ;
+    ids:drugName "Acetic Acid" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/acetic_acid> .
+
+<https://example.org/ids/reference/117>
+    a ids:DrugReference ;
+    ids:drugName "Acetyl Chloride" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/acetyl_chloride> .
+
+<https://example.org/ids/reference/118>
+    a ids:DrugReference ;
+    ids:drugName "Activated Carbon" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/activated_carbon> .
+
+<https://example.org/ids/reference/119>
+    a ids:DrugReference ;
+    ids:drugName "Ammonia" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/ammonia> .
+
+<https://example.org/ids/reference/120>
+    a ids:DrugReference ;
+    ids:drugName "Ammonium chloride" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/ammonium_chloride> .
+
+<https://example.org/ids/reference/121>
+    a ids:DrugReference ;
+    ids:drugName "Ammonium nitrate" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/ammonium_nitrate> .
+
+<https://example.org/ids/reference/122>
+    a ids:DrugReference ;
+    ids:drugName "Nandrolone" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/nandrolone> .
+
+<https://example.org/ids/reference/123>
+    a ids:DrugReference ;
+    ids:drugName "Sodium acetate" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/sodium_acetate> .
+
+<https://example.org/ids/reference/124>
+    a ids:DrugReference ;
+    ids:drugName "Sodium Bicarbonate" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/sodium_bicarbonate> .
+
+<https://example.org/ids/reference/125>
+    a ids:DrugReference ;
+    ids:drugName "Sodium carbonate" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/sodium_carbonate> .
+
+<https://example.org/ids/reference/126>
+    a ids:DrugReference ;
+    ids:drugName "Sodium hydroxide (caustic soda)" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/sodium_hydroxide_%28caustic_soda%29> .
+
+<https://example.org/ids/reference/127>
+    a ids:DrugReference ;
+    ids:drugName "Sodium permanganate" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/sodium_permanganate> .
+
+<https://example.org/ids/reference/128>
+    a ids:DrugReference ;
+    ids:drugName "Tartaric acid" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/tartaric_acid> .
+
+<https://example.org/ids/reference/129>
+    a ids:DrugReference ;
+    ids:drugName "Toluene" ;
+    ids:drugClass "Other chemicals" ;
+    ids:drug <https://example.org/ids/drug/toluene> .
+
+<https://example.org/ids/reference/130>
+    a ids:DrugReference ;
+    ids:drugName "Calcium carbonate" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drug <https://example.org/ids/drug/calcium_carbonate> .
+
+<https://example.org/ids/reference/131>
+    a ids:DrugReference ;
+    ids:drugName "Calcium Oxide" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drug <https://example.org/ids/drug/calcium_oxide> .
+
+<https://example.org/ids/reference/132>
+    a ids:DrugReference ;
+    ids:drugName "6-methyl etodesnitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/6-methyl_etodesnitazene> .
+
+<https://example.org/ids/reference/133>
+    a ids:DrugReference ;
+    ids:drugName "Ethyl acetate" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drug <https://example.org/ids/drug/ethyl_acetate> .
+
+<https://example.org/ids/reference/134>
+    a ids:DrugReference ;
+    ids:drugName "Multiple drugs" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drug <https://example.org/ids/drug/multiple_drugs> .
+
+<https://example.org/ids/reference/135>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified adulterants" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drugSubgroup "Adulterants" ;
+    ids:drug <https://example.org/ids/drug/non-specified_adulterants> .
+
+<https://example.org/ids/reference/136>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified synthetic drugs/substances" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drug <https://example.org/ids/drug/non-specified_synthetic_drugs%2Fsubstances> .
+
+<https://example.org/ids/reference/137>
+    a ids:DrugReference ;
+    ids:drugName "Other non-specified drugs/substances" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drug <https://example.org/ids/drug/other_non-specified_drugs%2Fsubstances> .
+
+<https://example.org/ids/reference/138>
+    a ids:DrugReference ;
+    ids:drugName "Other-miscellaneous" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drug <https://example.org/ids/drug/other-miscellaneous> .
+
+<https://example.org/ids/reference/139>
+    a ids:DrugReference ;
+    ids:drugName "Pregabalin" ;
+    ids:drugClass "Other drugs/substances" ;
+    ids:drug <https://example.org/ids/drug/pregabalin> .
+
+<https://example.org/ids/reference/140>
+    a ids:DrugReference ;
+    ids:drugName "Acetic Anhydride" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/acetic_anhydride> .
+
+<https://example.org/ids/reference/141>
+    a ids:DrugReference ;
+    ids:drugName "Acetone" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/acetone> .
+
+<https://example.org/ids/reference/142>
+    a ids:DrugReference ;
+    ids:drugName "APAAN (alpha-phenylacetoacetonitrile)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/apaan_%28alpha-phenylacetoacetonitrile%29> .
+
+<https://example.org/ids/reference/143>
+    a ids:DrugReference ;
+    ids:drugName "Benzyl Chloride" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/benzyl_chloride> .
+
+<https://example.org/ids/reference/144>
+    a ids:DrugReference ;
+    ids:drugName "BMK (1-phenyl-2-propanone)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/bmk_%281-phenyl-2-propanone%29> .
+
+<https://example.org/ids/reference/145>
+    a ids:DrugReference ;
+    ids:drugName "Ephedra" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/ephedra> .
+
+<https://example.org/ids/reference/146>
+    a ids:DrugReference ;
+    ids:drugName "Ephedrine" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/ephedrine> .
+
+<https://example.org/ids/reference/147>
+    a ids:DrugReference ;
+    ids:drugName "Ethyl Ether" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/ethyl_ether> .
+
+<https://example.org/ids/reference/148>
+    a ids:DrugReference ;
+    ids:drugName "Ethyl phenylacetate" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/ethyl_phenylacetate> .
+
+<https://example.org/ids/reference/149>
+    a ids:DrugReference ;
+    ids:drugName "GBL" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/gbl> .
+
+<https://example.org/ids/reference/150>
+    a ids:DrugReference ;
+    ids:drugName "Hydrochloric Acid" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/hydrochloric_acid> .
+
+<https://example.org/ids/reference/151>
+    a ids:DrugReference ;
+    ids:drugName "MDP2P" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/mdp2p> .
+
+<https://example.org/ids/reference/152>
+    a ids:DrugReference ;
+    ids:drugName "5-methyl etodesnitazene" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Nitazenes" ;
+    ids:drug <https://example.org/ids/drug/5-methyl_etodesnitazene> .
+
+<https://example.org/ids/reference/153>
+    a ids:DrugReference ;
+    ids:drugName "3-MMC (3-Methylmethcathinone)" ;
+    ids:drugClass "New psychoactive substances" ;
+    ids:drugSubgroup "Synthetic cathinones" ;
+    ids:drug <https://example.org/ids/drug/3-mmc_%283-methylmethcathinone%29> .
+
+<https://example.org/ids/reference/154>
+    a ids:DrugReference ;
+    ids:drugName "Nitroethane" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/nitroethane> .
+
+<https://example.org/ids/reference/155>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified precursors" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/non-specified_precursors> .
+
+<https://example.org/ids/reference/156>
+    a ids:DrugReference ;
+    ids:drugName "Other precursors" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/other_precursors> .
+
+<https://example.org/ids/reference/157>
+    a ids:DrugReference ;
+    ids:drugName "Phenyl-2-nitropropene (P2NP)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/phenyl-2-nitropropene_%28p2np%29> .
+
+<https://example.org/ids/reference/158>
+    a ids:DrugReference ;
+    ids:drugName "Phenylacetic acid (PAA)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/phenylacetic_acid_%28paa%29> .
+
+<https://example.org/ids/reference/159>
+    a ids:DrugReference ;
+    ids:drugName "Phenylpropanolamine (norephedrine, norpseudoephedrine)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/phenylpropanolamine_%28norephedrine%2C_norpseudoephedrine%29> .
+
+<https://example.org/ids/reference/160>
+    a ids:DrugReference ;
+    ids:drugName "3-Methylfentanyl (3-MF, Mefentanyl)" ;
+    ids:drugClass "Opioids" ;
+    ids:drugSubgroup "Other opioids" ;
+    ids:drug <https://example.org/ids/drug/3-methylfentanyl_%283-mf%2C_mefentanyl%29> .
+
+<https://example.org/ids/reference/161>
+    a ids:DrugReference ;
+    ids:drugName "Potassium permanganate" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/potassium_permanganate> .
+
+<https://example.org/ids/reference/162>
+    a ids:DrugReference ;
+    ids:drugName "Pseudoephedrine" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/pseudoephedrine> .
+
+<https://example.org/ids/reference/163>
+    a ids:DrugReference ;
+    ids:drugName "Safrole" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/safrole> .
+
+<https://example.org/ids/reference/164>
+    a ids:DrugReference ;
+    ids:drugName "Sulphuric Acid" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/sulphuric_acid> .
+
+<https://example.org/ids/reference/165>
+    a ids:DrugReference ;
+    ids:drugName "Tetrahydrocannabinolic Acid (THCA)" ;
+    ids:drugClass "Precursors" ;
+    ids:drug <https://example.org/ids/drug/tetrahydrocannabinolic_acid_%28thca%29> .
+
+<https://example.org/ids/reference/166>
+    a ids:DrugReference ;
+    ids:drugName "Alprazolam (Xanax, Pranax, Ksalol)" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Benzodiazepines" ;
+    ids:drug <https://example.org/ids/drug/alprazolam_%28xanax%2C_pranax%2C_ksalol%29> .
+
+<https://example.org/ids/reference/167>
+    a ids:DrugReference ;
+    ids:drugName "Barbiturates" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Barbiturates" ;
+    ids:drug <https://example.org/ids/drug/barbiturates> .
+
+<https://example.org/ids/reference/168>
+    a ids:DrugReference ;
+    ids:drugName "Benzodiazepines" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drug <https://example.org/ids/drug/benzodiazepines> .
+
+<https://example.org/ids/reference/169>
+    a ids:DrugReference ;
+    ids:drugName "Brotizolam" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Benzodiazepines" ;
+    ids:drug <https://example.org/ids/drug/brotizolam> .
+
+<https://example.org/ids/reference/170>
+    a ids:DrugReference ;
+    ids:drugName "Clonazepam (Rivotril)" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Benzodiazepines" ;
+    ids:drug <https://example.org/ids/drug/clonazepam_%28rivotril%29> .
+
+<https://example.org/ids/reference/171>
+    a ids:DrugReference ;
+    ids:drugName "Diazepam" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Benzodiazepines" ;
+    ids:drug <https://example.org/ids/drug/diazepam> .
+
+<https://example.org/ids/reference/172>
+    a ids:DrugReference ;
+    ids:drugName "Flunitrazepam (Disomnilan, Flumipam, Rohypnol)" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drug <https://example.org/ids/drug/flunitrazepam_%28disomnilan%2C_flumipam%2C_rohypnol%29> .
+
+<https://example.org/ids/reference/173>
+    a ids:DrugReference ;
+    ids:drugName "GHB" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Other sedatives and tranquilizers" ;
+    ids:drug <https://example.org/ids/drug/ghb> .
+
+<https://example.org/ids/reference/174>
+    a ids:DrugReference ;
+    ids:drugName "Lorazepam (Ativan, Temesta)" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Benzodiazepines" ;
+    ids:drug <https://example.org/ids/drug/lorazepam_%28ativan%2C_temesta%29> .
+
+<https://example.org/ids/reference/175>
+    a ids:DrugReference ;
+    ids:drugName "Methaqualone" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drug <https://example.org/ids/drug/methaqualone> .
+
+<https://example.org/ids/reference/176>
+    a ids:DrugReference ;
+    ids:drugName "Nimetazepam" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Benzodiazepines" ;
+    ids:drug <https://example.org/ids/drug/nimetazepam> .
+
+<https://example.org/ids/reference/177>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified sedatives and tranquillizers" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drug <https://example.org/ids/drug/non-specified_sedatives_and_tranquillizers> .
+
+<https://example.org/ids/reference/178>
+    a ids:DrugReference ;
+    ids:drugName "Other sedatives and tranquillizers" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drug <https://example.org/ids/drug/other_sedatives_and_tranquillizers> .
+
+<https://example.org/ids/reference/179>
+    a ids:DrugReference ;
+    ids:drugName "Oxazepam" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Benzodiazepines" ;
+    ids:drug <https://example.org/ids/drug/oxazepam> .
+
+<https://example.org/ids/reference/180>
+    a ids:DrugReference ;
+    ids:drugName "Phenobarbital (Luminal)" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Barbiturates" ;
+    ids:drug <https://example.org/ids/drug/phenobarbital_%28luminal%29> .
+
+<https://example.org/ids/reference/181>
+    a ids:DrugReference ;
+    ids:drugName "Zolpidem" ;
+    ids:drugClass "Sedatives and Tranquillizers" ;
+    ids:drugSubgroup "Other sedatives and tranquilizers" ;
+    ids:drug <https://example.org/ids/drug/zolpidem> .
+
+<https://example.org/ids/reference/182>
+    a ids:DrugReference ;
+    ids:drugName "Methanol" ;
+    ids:drugClass "Solvents and Inhalants" ;
+    ids:drug <https://example.org/ids/drug/methanol> .
+
+<https://example.org/ids/reference/183>
+    a ids:DrugReference ;
+    ids:drugName "Non-specified solvents and Inhalants" ;
+    ids:drugClass "Solvents and Inhalants" ;
+    ids:drug <https://example.org/ids/drug/non-specified_solvents_and_inhalants> .
+
+<https://example.org/ids/reference/184>
+    a ids:DrugReference ;
+    ids:drugName "Other solvents and Inhalants" ;
+    ids:drugClass "Solvents and Inhalants" ;
+    ids:drug <https://example.org/ids/drug/other_solvents_and_inhalants> .
+
